@@ -1,4 +1,5 @@
 #include <stdio.h>
+// copying string without using string handling functions
 int main() {
     char s1[100], s2[100], i;
     printf("Enter string s1: ");
