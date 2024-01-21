@@ -6,6 +6,7 @@ int main(){
     scanf("%d %d",&a ,&b);
     area = a*b;
     printf("area:%d",area);
+    getch();
     return 0;}
 
     
