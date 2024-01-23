@@ -6,8 +6,7 @@ int main() {
    for (i = 1; i <= rows; ++i) {
       for (space = 1; space <= rows - i; ++space) {
          printf("  ");
-         ++count;
-      }
+         ++count;}
       while (k != 2 * i - 1) {
          if (count <= rows - 1) {
             printf("%d ", i + k);
