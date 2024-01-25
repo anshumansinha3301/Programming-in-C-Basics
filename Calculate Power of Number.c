@@ -12,5 +12,4 @@ int main() {
         --exp;
     }
     printf("Answer = %.0Lf", result);
-    return 0;
-}
+    return 0;}
