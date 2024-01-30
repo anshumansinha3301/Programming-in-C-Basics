@@ -4,12 +4,10 @@ struct student {
     int roll;
     float marks;
 } s;
-
 int main() {
     printf("Enter information:\n");
     printf("Enter name: ");
     fgets(s.name, sizeof(s.name), stdin);
-
     printf("Enter roll number: ");
     scanf("%d", &s.roll);
     printf("Enter marks: ");
