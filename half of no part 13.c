@@ -8,6 +8,5 @@ int main(){
     // typecasting process below
     float f = (float)x;
     printf("%f", f/2); // here x got typecasted from int to float
-    
     return 0;
 }
