@@ -12,9 +12,7 @@ int main() {
     for (i = 0; i < 5; i++) {
         printf("Subject %d: ", i + 1);
         scanf("%d", &marks[i]);
-        totalMarks += marks[i];
-    }
-
+        totalMarks += marks[i];}
     double percentage = (double)totalMarks / (5 * maxMarks) * 100.0;
 
     printf("Aggregate marks: %d\n", totalMarks);
