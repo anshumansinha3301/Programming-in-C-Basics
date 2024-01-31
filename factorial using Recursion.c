@@ -16,5 +16,4 @@ int rec ( int x)
     return (1);
     else
     f = x * rec ( x - 1);
-    return (f);
-}
+    return (f);}
