@@ -13,6 +13,4 @@ int main(){
     scanf("%f", &time);
     float si = principle*rate*time/100;
     printf("%f", si);    
-    return 0;
-
-}
+    return 0;}
