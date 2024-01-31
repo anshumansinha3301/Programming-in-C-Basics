@@ -20,6 +20,4 @@ int main() {
     printf("Distance in feet: %.2lf\n", feet);
     printf("Distance in inches: %.2lf\n", inches);
     printf("Distance in centimeters: %.2lf\n", centimeters);
-
-    return 0;
-}
+    return 0;}
