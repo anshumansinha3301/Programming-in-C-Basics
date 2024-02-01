@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() 
 {
     int exponent;
@@ -8,7 +7,6 @@ int main()
 
     cout << "Enter base and exponent respectively:  ";
     cin >> base >> exponent;
-
     cout << base << "^" << exponent << " = ";
 
     while (exponent != 0) {
