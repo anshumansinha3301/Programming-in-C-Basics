@@ -5,7 +5,6 @@ struct Person {
     int age;
     float height;
 };
-
 int main() {
     struct Person person1;
 
