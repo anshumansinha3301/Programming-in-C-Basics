@@ -14,5 +14,4 @@ int main() {
 
     // Display temperature in Celsius
     printf("Temperature in Celsius: %.2lf\n", celsius);
-
     return 0;}
