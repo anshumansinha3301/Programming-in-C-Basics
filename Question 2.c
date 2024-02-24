@@ -1,7 +1,6 @@
 /* The distance between two cities (in km) is input through the keyboard, write a program to convert
 and print this distance in meters, feet, inches and centimetres. */
 #include <stdio.h>
-
 int main() {
     double distanceInKm;
 
