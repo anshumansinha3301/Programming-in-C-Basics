@@ -6,7 +6,7 @@ int main() {
    // leap year if perfectly divisible by 400
    if (year % 400 == 0) {
       printf("%d is a leap year.", year);
-   }
+   } 
    // not a leap year if divisible by 100
    // but not divisible by 400
    else if (year % 100 == 0) {
