@@ -13,5 +13,4 @@ int main()
 
     cout << "\nAfter swapping." << endl;
     cout << "a = " << a << ", b = " << b << endl;
-    return 0;
-}
+    return 0;}
