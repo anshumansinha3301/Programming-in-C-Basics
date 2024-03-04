@@ -86,7 +86,6 @@ int main() {
             printf("Congratulations! You have defeated the %s.\n", enemies[i].name);
         }
     }
-
     printf("\nYou have defeated all enemies! You are a true hero. You win!\n");
     return 0;
 }
