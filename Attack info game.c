@@ -50,7 +50,6 @@ int main() {
     initializeEnemy(&enemy8, "Zombie", "A reanimated corpse", 30);
     initializeEnemy(&enemy9, "Werewolf", "A creature with the ability to transform", 45);
     initializeEnemy(&enemy10, "Ghost", "A spectral entity", 25);
-
     printf("Welcome to the Adventure Game!\n");
 
     Enemy enemies[] = {enemy1, enemy2, enemy3, enemy4, enemy5, enemy6, enemy7, enemy8, enemy9, enemy10};
