@@ -16,7 +16,6 @@ typedef struct {
     char description[MAX_DESCRIPTION_LENGTH];
     int damage;
 } Enemy;
-
 void initializePlayer(Player *player, const char *name, const char *description, int health) {
     strncpy(player->name, name, MAX_NAME_LENGTH - 1);
     strncpy(player->description, description, MAX_DESCRIPTION_LENGTH - 1);
