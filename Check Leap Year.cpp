@@ -6,7 +6,6 @@ int main() {
   cout << "Enter a year: ";
   cin >> year;
 
-  // leap year if perfectly divisible by 400
   if (year % 400 == 0) {
     cout << year << " is a leap year.";
   }
