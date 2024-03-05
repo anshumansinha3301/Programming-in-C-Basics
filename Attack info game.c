@@ -75,7 +75,6 @@ int main() {
                     printf("Invalid choice. Try again.\n");
             }
         }
-
         if (player.health <= 0) {
             printf("You have been defeated by the %s. Game over!\n", enemies[i].name);
             return 0;
