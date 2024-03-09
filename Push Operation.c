@@ -7,7 +7,6 @@ struct Stack {
     int arr[MAX_SIZE];
     int top;
 };
-
 void initialize(struct Stack *stack) {
     stack->top = -1;
 }
