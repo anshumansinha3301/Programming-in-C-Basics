@@ -26,7 +26,6 @@ void initializeEnemy(Enemy *enemy, const char *name, const char *description, in
     strncpy(enemy->description, description, MAX_DESCRIPTION_LENGTH - 1);
     enemy->damage = damage;
 }
-
 void attackEnemy(Player *player, Enemy *enemy) {
     printf("%s attacks %s!\n", player->name, enemy->name);
     enemy->damage -= player->health;
