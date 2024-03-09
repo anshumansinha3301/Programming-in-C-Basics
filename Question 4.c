@@ -3,7 +3,6 @@ to convert this temperature into Centigrade degrees.*/
 #include <stdio.h>
 int main() {
     double fahrenheit, celsius;
-
     // Input temperature in Fahrenheit
     printf("Enter temperature in Fahrenheit: ");
     scanf("%lf", &fahrenheit);
