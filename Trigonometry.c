@@ -16,6 +16,5 @@ int main() {
     } else {
         printf("Tangent of %.2lf degrees: %.4lf\n", angle, tan(angleInRadians));
     }
-
     return 0;
 }
