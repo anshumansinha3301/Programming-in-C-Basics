@@ -61,7 +61,7 @@ int main() {
             int choice;
             printf("Enter your choice: ");
             scanf("%d", &choice);
-
+ 
             switch (choice) {
                 case 1:
                     attackEnemy(&player, &enemies[i]);
@@ -82,3 +82,4 @@ int main() {
     }
     printf("\nYou have defeated all enemies! You are a true hero. You win!\n");
     return 0;}
+  
