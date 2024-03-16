@@ -50,7 +50,7 @@ int main() {
     printf("Welcome to the Adventure Game!\n");
 
     Enemy enemies[] = {enemy1, enemy2, enemy3, enemy4, enemy5, enemy6, enemy7, enemy8, enemy9, enemy10};
-
+ 
     for (int i = 0; i < 10; ++i) {
         printf("\nEncounter %d: You encounter a %s.\n", i + 1, enemies[i].name);
 
