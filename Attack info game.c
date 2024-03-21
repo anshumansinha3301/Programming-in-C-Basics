@@ -9,7 +9,7 @@ typedef struct {
     char description[MAX_DESCRIPTION_LENGTH];
     int health;
 } Player;
-     
+      
 typedef struct {
     char name[MAX_NAME_LENGTH];
     char description[MAX_DESCRIPTION_LENGTH];
