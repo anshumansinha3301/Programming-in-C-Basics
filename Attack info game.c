@@ -57,7 +57,7 @@ int main() {
         while (player.health > 0 && enemies[i].damage > 0) {
             printf("1. Attack\n");
             printf("2. Run\n");
-
+ 
             int choice;
             printf("Enter your choice: ");
             scanf("%d", &choice);
