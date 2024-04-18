@@ -35,7 +35,7 @@ void attackEnemy(Player *player, Enemy *enemy) {
 int main() {
     Player player;
     Enemy enemy1, enemy2, enemy3, enemy4, enemy5, enemy6, enemy7, enemy8, enemy9, enemy10;
-    
+     
     initializePlayer(&player, "Player1", "A brave adventurer", 100);
     initializeEnemy(&enemy1, "Goblin", "A small and ugly creature", 20);
     initializeEnemy(&enemy2, "Orc", "A powerful and aggressive warrior", 30);
