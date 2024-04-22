@@ -7,4 +7,4 @@ int main(){
     printf("area:%d",area);
     return 0;}
 
-    
+     
