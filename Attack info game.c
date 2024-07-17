@@ -31,7 +31,7 @@ void attackEnemy(Player *player, Enemy *enemy) {
     enemy->damage -= player->health;
     printf("%s takes %d damage. %s's damage: %d\n", enemy->name, player->health, enemy->name, enemy->damage);
 }
-    
+     
 int main() {
     Player player;
     Enemy enemy1, enemy2, enemy3, enemy4, enemy5, enemy6, enemy7, enemy8, enemy9, enemy10;
