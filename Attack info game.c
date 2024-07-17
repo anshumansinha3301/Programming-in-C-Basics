@@ -20,7 +20,7 @@ void initializePlayer(Player *player, const char *name, const char *description,
     strncpy(player->description, description, MAX_DESCRIPTION_LENGTH - 1);
     player->health = health;
 }
-               
+                
 void initializeEnemy(Enemy *enemy, const char *name, const char *description, int damage) {
     strncpy(enemy->name, name, MAX_NAME_LENGTH - 1);
     strncpy(enemy->description, description, MAX_DESCRIPTION_LENGTH - 1);
