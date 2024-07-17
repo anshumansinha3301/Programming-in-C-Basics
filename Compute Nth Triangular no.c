@@ -1,5 +1,5 @@
 #include <stdio.h>
- 
+  
 int main() {
     int n, triangularNumber;
     printf("Enter the value of n: ");
